@@ -39,11 +39,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if(id==R.id.newtask)
-        {
-            Intent i=new Intent(MainActivity.this,todo.class);
-            startActivity(i);
-        }
 
         if (id == R.id.action_settings) {
             return true;
