@@ -25,8 +25,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
-                Intent i=new Intent(MainActivity.this,todo.class);
-                startActivity(i);
+
             }
         });
     }
@@ -40,6 +39,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
+        if(id==R.id.newtask)
+        {
+            Intent i=new Intent(MainActivity.this,todo.class);
+            startActivity(i);
+        }
 
         if (id == R.id.action_settings) {
             return true;
