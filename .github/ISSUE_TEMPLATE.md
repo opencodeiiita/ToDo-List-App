@@ -2,12 +2,11 @@
 > ---------------------------------------------------------------
 
 ### This issue is for a: (mark with an `x`)
-```
 - [ ] bug report -> please search issues before submitting
 - [ ] feature request
 - [ ] documentation issue or request
 - [ ] regression
-```
+
 
 ### Minimal steps to reproduce
 >
