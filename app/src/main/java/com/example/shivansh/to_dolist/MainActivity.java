@@ -1,5 +1,6 @@
 package com.example.shivansh.to_dolist;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -37,7 +38,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-
+        if (id == R.id.newtask) {
+            Intent i = new Intent(this, todo.class);
+            startActivity(i);
+            return  true;
+        }
         if (id == R.id.action_settings) {
             return true;
         }
