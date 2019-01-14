@@ -1,14 +1,14 @@
 Closes #
  -
  
-# What changes are introduced to solve this?
+### What changes are introduced to solve this?
  -
       
-# Does this introduce a breaking change?
+### Does this introduce a breaking change?
  - [ ] Yes
  - [ ] No
 
-# Pull Request Type
+### Pull Request Type
 What kind of change does this Pull Request introduce?
  - [ ]  Bugfix
  - [ ]  Feature
@@ -17,10 +17,10 @@ What kind of change does this Pull Request introduce?
  - [ ]  Documentation content changes
  - [ ]  Other… Please describe:
 
-# How to Test the Code?
+### How to Test the Code?
  - Describe:
 
-# Please check if the PR fulfills these requirements
+### Please check if the PR fulfills these requirements
 - [ ] The commit message follows our guidelines
 - [ ] Tests for the changes have been added (for bug fixes / features)
 - [ ] Docs have been added / updated (for bug fixes / features)
