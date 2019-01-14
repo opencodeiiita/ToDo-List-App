@@ -15,6 +15,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        RecyclerView programmingList = findViewById(R.id.programmingList);
+        programmingList.setLayoutManager(new LinearLayoutManager(this));
+        String[] taskname = {"Task1", "Task2", "Task3", "Task4", "Task5"};
+        programmingList.setAdapter(new ProgrammingAdapter(taskname));
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
