@@ -21,7 +21,7 @@ public class ToDoTaskAdapter extends RecyclerView.Adapter<ToDoTaskAdapter.ToDoTa
     @Override
     public ToDoTaskViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int i) {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-        View view = inflater.inflate(R.id.item_todo, parent, false);
+        View view = inflater.inflate(R.layout.item_todo, parent, false);
         return new ToDoTaskViewHolder(view);
     }
 
@@ -29,7 +29,6 @@ public class ToDoTaskAdapter extends RecyclerView.Adapter<ToDoTaskAdapter.ToDoTa
     public void onBindViewHolder(@NonNull ToDoTaskViewHolder viewHolder, int i) {
         String title = data[i];
         viewHolder.txt.setText(title);
-
     }
 
     @Override
@@ -37,10 +36,7 @@ public class ToDoTaskAdapter extends RecyclerView.Adapter<ToDoTaskAdapter.ToDoTa
         return data.length;
     }
     public class ToDoTaskViewHolder extends ViewHolder{
-
-      
         TextView txt;
-
         public ToDoTaskViewHolder(@NonNull View itemView) {
             super(itemView);
             txt = itemView.findViewById(R.id.txt);
