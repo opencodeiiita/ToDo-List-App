@@ -38,12 +38,11 @@ public class ToDoTaskAdapter extends RecyclerView.Adapter<ToDoTaskAdapter.ToDoTa
     }
     public class ToDoTaskViewHolder extends ViewHolder{
 
-        ImageView m;
+      
         TextView txt;
 
         public ToDoTaskViewHolder(@NonNull View itemView) {
             super(itemView);
-            m = itemView.findViewById(R.id.ImgIcon);
             txt = itemView.findViewById(R.id.txt);
         }
     }
