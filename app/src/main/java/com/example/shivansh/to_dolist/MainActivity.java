@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         RecyclerView todoList = findViewById(R.id.todoList);
         todoList.setLayoutManager(new LinearLayoutManager(this));
-        String[] taskname = {"Task1", "Task2", "Task3", "Task4", "Task5","Task6","Task7","Task8","Task9","Task10};
+        String[] taskname = {"Task1", "Task2", "Task3", "Task4", "Task5","Task6","Task7","Task8","Task9","Task10"};
         todoList.setAdapter(new ToDoTaskAdapter(taskname));
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
