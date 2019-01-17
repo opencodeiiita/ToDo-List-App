@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Intent newtask = new Intent(this, todo.class);
+                startActivity(i);
             }
         });
     }
@@ -38,11 +38,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if (id == R.id.newtask) {
-            Intent i = new Intent(this, todo.class);
-            startActivity(i);
-            return  true;
-        }
         if (id == R.id.action_settings) {
             return true;
         }
