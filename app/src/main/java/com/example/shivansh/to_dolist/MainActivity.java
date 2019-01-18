@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent newtask = new Intent(this, todo.class);
+                Intent newtask = new Intent(getApplicationContext(), todo.class);
                 startActivity(newtask);
             }
         });
