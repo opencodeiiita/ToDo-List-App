@@ -69,15 +69,19 @@
             android:textSize="15dp" />
 
         <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginStart="3dp"
-            android:layout_marginLeft="3dp"
-            android:layout_marginTop="15dp"
-            android:hint="dd/mm/yyyy"
-            android:padding="5dp"
-            android:paddingStart="5dp"
-            android:paddingLeft="5dp" />
+            android:id="@+id/date"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="#d4d4d4"
+            android:hint="Select Date..."
+            android:padding="8dp"
+            android:textColor="#897"
+            android:textColorHint="#090"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        
+
     </LinearLayout>
 
     <RadioButton
@@ -85,7 +89,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginLeft="5dp"
-        android:layout_marginTop="15dp"
+        
+        android:layout_marginTo
         android:padding="5dp"
         android:text=" Enable Notification"
         android:textColor="#000000" />
