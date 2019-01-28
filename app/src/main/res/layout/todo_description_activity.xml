@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     >
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:hint="Delete"
+         android:layout_alignParentLeft="true"
+         android:layout_margin="20dp"/>
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="Edit"
+      android:layout_alignParentRight="true"
+      android:TextSize="20dp"
+      android:layout_margin="20dp"/>
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingTop="50dp"
+        android:hint="Description"
+        android:TextStyle="bold"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:TextSize="35dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="15dp"
+        android:layout_margin="10dp"
+        />
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_margin="10dp">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="5dp"
+             android:Layout_marginBelow="10dp"
+             android:padding="5dp"
+             android:text="Deadline date  -"
+             android:paddingBottom="20dp"
+             android:TextStyle="bold"
+             android:textSize="18dp" />
+
+      <EditText
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:hint="dd/mm/yyyy"
+          android:paddingLeft="15dp"
+          android:paddingTop="1dp"
+          android:layout_marginRight="14dp"
+          android:layout_marginTop="5dp"
+          />
+     </LinearLayout>
+     <EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:paddingLeft="15dp"
+     android:TextSize="35dp"
+     android:hint="Priority"
+     android:TextStyle="bold"
+     android:paddingBottom="20dp"
+     android:layout_margin="10dp"/>
+
+     <Switch
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Notification"
+         android:TextStytle="bold"
+         android:layout_MarginLeft="10dp"
+         android:textAppearance="?android:textAppearanceLarge"
+         android:paddingBottom="20dp"
+         android:TextSize="20sp"
+         android:layout_margin="10dp"
+         android:paddingLeft="15dp" />
+
+
+
+
+
+
+  </LinearLayout>
+ </RelativeLayout>
+</ScrollView>

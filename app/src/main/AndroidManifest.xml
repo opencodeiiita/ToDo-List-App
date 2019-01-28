@@ -19,6 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".todo_description_activity></activity>"
         <activity android:name=".NewToDoActivity"></activity>
     </application>
 
