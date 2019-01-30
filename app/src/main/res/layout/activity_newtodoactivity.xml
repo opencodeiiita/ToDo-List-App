@@ -23,7 +23,8 @@
         android:hint="Task name"
         android:padding="10dp"
         android:paddingStart="5dp"
-        android:paddingLeft="5dp" />
+        android:paddingLeft="5dp"
+        android:inputType="textShortMessage"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -47,7 +48,8 @@
             android:hint="Enter here"
             android:padding="5dp"
             android:paddingStart="5dp"
-            android:paddingLeft="5dp" />
+            android:paddingLeft="5dp"
+            android:inputType="textMultiLine"/>
     </LinearLayout>
 
     <LinearLayout
@@ -78,7 +80,8 @@
             android:textColor="#897"
             android:textColorHint="#090"
             android:textSize="15sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:inputType="date"/>
         
     </LinearLayout>
 
@@ -113,7 +116,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
-            android:hint="(1-5)" />
+            android:hint="(1-5)"
+            android:inputType="number"/>
     </LinearLayout>
 
 </LinearLayout>
