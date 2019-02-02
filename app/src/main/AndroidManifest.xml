@@ -19,7 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NewToDoActivity"></activity>
+        <activity android:name=".NewToDoActivity" />
+        <activity android:name=".SplashScreen"></activity>
     </application>
 
 </manifest>
