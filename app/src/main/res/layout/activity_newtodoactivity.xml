@@ -17,6 +17,7 @@
         android:textStyle="bold" />
 
     <EditText
+        android:id="@+id/taskName_editText_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -43,6 +44,7 @@
             android:textSize="15dp" />
 
         <EditText
+            android:id="@+id/description_editText_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Enter here"
@@ -86,6 +88,7 @@
     </LinearLayout>
 
     <RadioButton
+        android:id="@+id/radio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
@@ -112,6 +115,7 @@
             android:textSize="15dp" />
 
         <EditText
+            android:id="@+id/priority_editText_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
